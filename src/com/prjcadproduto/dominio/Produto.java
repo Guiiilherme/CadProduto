@@ -1,22 +1,21 @@
 package com.prjcadproduto.dominio;
 
 public class Produto {
-	
+
 	private int id;
 	private String nome;
 	private String descricaoPr;
 	private String fabricantePr;
 	private int quantidade;
 	private double preco;
-	
-	
-	//Construtores
-	
-	//Sem marcar
+
+	// Construtores
+
+	// Sem marcar
 	public Produto() {
 	}
 
-	//Marcar
+	// Marcar
 	public Produto(int id, String nome, String descricaoPr, String fabricantePr, int quantidade, double preco) {
 		this.id = id;
 		this.nome = nome;
@@ -26,8 +25,7 @@ public class Produto {
 		this.preco = preco;
 	}
 
-	
-	//GETTERS e SETTERS
+	// GETTERS e SETTERS
 	public int getId() {
 		return id;
 	}
@@ -75,12 +73,5 @@ public class Produto {
 	public void setPreco(double preco) {
 		this.preco = preco;
 	}
-	
-	
-	
-	
-	
-	
-	
 
 }
